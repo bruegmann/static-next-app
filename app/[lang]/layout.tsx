@@ -25,7 +25,7 @@ export default function RootLayout({
     return (
         <html lang={params.lang}>
             <head>
-                <base href={`${nextConfig.basePath}/`} />
+                <base href={`${nextConfig.basePath || ""}/${params.lang}/`} />
             </head>
             <body
                 className={

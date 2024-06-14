@@ -15,7 +15,7 @@ export default function HomeLang({ params }: { params: { lang: Language } }) {
                     {getPhrase("HELLO_WORLD", params.lang)}, {params.lang}
                 </h1>
 
-                <a href="/about" className="link">
+                <a href="about" className="link">
                     About
                 </a>
             </div>
